@@ -9,6 +9,7 @@ import {
   Search,
   ShieldAlert,
 } from 'lucide-react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { ConsentGateModal } from './components/ConsentGateModal';
 import { CookieBanner } from './components/CookieBanner';
 import { FaqSection } from './components/FaqSection';
@@ -676,6 +677,9 @@ export default function App() {
         onAcceptCookies={() => setCookieConsent('accepted')}
         onRejectCookies={() => setCookieConsent('rejected')}
       />
+
+      {/* Vercel Speed Insights */}
+      <SpeedInsights />
     </div>
   );
 }
