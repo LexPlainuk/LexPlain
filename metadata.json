@@ -1,0 +1,6 @@
+{
+  "name": "LexPlain UK",
+  "description": "Plain-English Legal Information for England & Wales. General statutory and common law explainer for the public — not legal advice.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
